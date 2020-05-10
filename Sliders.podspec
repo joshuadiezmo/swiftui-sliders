@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name = 'Sliders'
   s.version = '0.1'
   s.license = 'MIT'
-  s.summary = 'Video player for swiftui'
+  s.summary = 'Custom Sliders for swiftui'
   s.homepage = 'https://github.com/spacenation/swiftui-sliders'
   s.authors = { 'Alex Young' => 'Alex Young' }
   s.source = { :git => 'https://github.com/spacenation/swiftui-sliders', :tag => s.version }
