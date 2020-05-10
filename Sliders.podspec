@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary = 'Custom Sliders for swiftui'
   s.homepage = 'https://github.com/spacenation/swiftui-sliders'
   s.authors = { 'Alex Young' => 'Alex Young' }
-  s.source = { :git => 'https://github.com/spacenation/swiftui-sliders', :tag => s.version }
+  s.source = { :git => 'https://github.com/joshuadiezmo/swiftui-sliders', :tag => s.version }
   s.documentation_url = 'https://github.com/spacenation/swiftui-sliders'
 
   s.ios.deployment_target = '13.0'
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.swift_versions = ['5.1', '5.2']
 
-  s.source_files = 'Sources/Sliders/*'
+  s.source_files = 'Sources/Sliders/**/*'
 
   s.frameworks = 'CFNetwork'
 end
